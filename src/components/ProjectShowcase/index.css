@@ -1,0 +1,95 @@
+.bg-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.logo-container {
+  background-color: #e2e8f0;
+  width: 100%;
+  height: 12vh;
+  padding-left: 35px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.logo-img {
+  height: 45px;
+}
+
+.select-option {
+  height: 40px;
+  width: 30%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+}
+
+.option-text {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+}
+.tab-container {
+  padding-top: 20px;
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-bottom: 52px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.failure-img {
+  height: 300px;
+}
+
+.failure-heading {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.failure-text {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.retry-btn {
+  background-color: #328af2;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #f1f5f9;
+  font-family: Roboto;
+  font-size: 15px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.projects-container {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
